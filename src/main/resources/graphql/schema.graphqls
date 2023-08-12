@@ -9,6 +9,7 @@ type Query{
     findAllCourses: [Course]
 }
 
+# Mutation - sirve para crear, actualizar y eliminar
 type Mutation{
     # Student
     createStudent(inputStudent: InputStudent!) : Student
